@@ -79,26 +79,30 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-
+    text-shadow: 4px 4px 4px #aaa;
+    font-size: 48px;
     margin-top: 10%;
     font-size: 60px;
+    font-weight: bold;
 } 
 
-.header-text h1{
+.header-text1 h1{
 
     margin-top: 40px;
     font-size: 70px;
 }
-.header-text h1 span{
+.header-text1 h1 span{
     color: #ff004f;
+    font-weight: bold;
+    
 }
-.header-text h1 span1{
+.header-text1 h1 span1{
     color: rgb(127, 199, 250);
 }
-.header-text h1 span2{
+.header-text1 h1 span2{
     color: rgb(255, 144, 96);
 }
-.header-text h1 span3{
+.header-text1 h1 span3{
     color: rgb(73, 235, 111);
 }
 #About{
@@ -125,6 +129,7 @@ border-radius: 30%;
     flex-basis: 60%;
 }
 .about-col-2 p{
+    text-shadow: 40px 40px 40px #c5dee1;
     flex-basis: 40%;
     font-family: cursive;
     font-style: oblique;
@@ -185,6 +190,7 @@ color: rgb(79, 239, 167);
 
 }
 .contact-left p {
+
     margin-top: 35px;
     font-size: 25px;
 }
